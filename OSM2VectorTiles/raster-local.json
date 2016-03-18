@@ -1,0 +1,35 @@
+{
+  "version": 8,
+  "name": "Raster Tiles",
+  "sources": {
+    "yourTileLayer": {
+      "url": "asset://mellow-kat-local.json",
+      "type": "raster",
+      "tiles": [
+        "http://192.168.99.100/foo/{z}/{x}/{y}.png"
+      ],
+      "tileSize": 256
+    }
+  },
+  "layers": [
+     {
+     "minzoom": 9,
+     "maxzoom": 17,
+     "type": "raster",
+     "paint": {},
+     "layout": {
+     "visibility": "visible"
+     },
+     "id": "yourTileLayer",
+     "source": "yourTileLayer",
+     "interactive": true
+     },
+    {
+    "id": "yourTileLayer1",
+    "type": "raster",
+    "source": "yourTileLayer1",
+    "paint": {
+      "raster-fade-duration": 100
+    }
+  }]
+}

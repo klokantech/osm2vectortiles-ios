@@ -1,0 +1,12 @@
+{
+  "name": "MellowKat-Surfmap",
+  "version": "1.0.0",
+  "description": "",
+  "type": "overlay",
+  "format": "png",
+  "minzoom": "9",
+  "maxzoom": "16",
+  "bounds": "-117.30596604,32.78617375,-117.21820077,32.88817706",
+  "scale": "1",
+  "profile": "mercator"
+}

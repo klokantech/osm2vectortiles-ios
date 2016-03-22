@@ -16,6 +16,7 @@
 		4C5BF32C1C84DE90000EE0E1 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5BF32A1C84DE90000EE0E1 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C5BF32F1C84DEF2000EE0E1 /* bright-v8-local.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BF32E1C84DEF2000EE0E1 /* bright-v8-local.json */; };
 		4C5BF3311C84DF01000EE0E1 /* osm2vectortiles-header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C5BF3301C84DF01000EE0E1 /* osm2vectortiles-header.jpg */; };
+		4CC2CCD01C8F67F9002F1868 /* grandcanyon.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2CCCF1C8F67F9002F1868 /* grandcanyon.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		4C5BF32A1C84DE90000EE0E1 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 		4C5BF32E1C84DEF2000EE0E1 /* bright-v8-local.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "bright-v8-local.json"; sourceTree = "<group>"; };
 		4C5BF3301C84DF01000EE0E1 /* osm2vectortiles-header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "osm2vectortiles-header.jpg"; sourceTree = "<group>"; };
+		4CC2CCCF1C8F67F9002F1868 /* grandcanyon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grandcanyon.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4C5BF32E1C84DEF2000EE0E1 /* bright-v8-local.json */,
+				4CC2CCCF1C8F67F9002F1868 /* grandcanyon.json */,
 				4C5BF3301C84DF01000EE0E1 /* osm2vectortiles-header.jpg */,
 				4C5BF3181C84DDF5000EE0E1 /* AppDelegate.swift */,
 				4C5BF31A1C84DDF5000EE0E1 /* ViewController.swift */,
@@ -152,6 +155,7 @@
 				4C5BF3231C84DDF5000EE0E1 /* LaunchScreen.storyboard in Resources */,
 				4C5BF3201C84DDF5000EE0E1 /* Assets.xcassets in Resources */,
 				4C5BF31E1C84DDF5000EE0E1 /* Main.storyboard in Resources */,
+				4CC2CCD01C8F67F9002F1868 /* grandcanyon.json in Resources */,
 				4C5BF32F1C84DEF2000EE0E1 /* bright-v8-local.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +326,7 @@
 				4C5BF3291C84DDF5000EE0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

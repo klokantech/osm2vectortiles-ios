@@ -1,0 +1,31 @@
+{
+    "version": 8,
+    "sources": {
+        "raster-tiles": {
+            "type": "raster",
+            "url": "http://tileserver.maptiler.com/grandcanyon.json",
+            "tileSize": 256
+        },
+        "nasa-tiles": {
+            "type": "raster",
+            "url": "http://tileserver.maptiler.com/nasa.json",
+            "tileSize": 256
+        }
+    },
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "paint": {
+               "background-color": "#f8f4f0"
+            }
+        },
+        {
+            "id": "overlay",
+            "type": "raster",
+            "source": "raster-tiles",
+            "minzoom": 0,
+            "maxzoom": 22
+        }
+    ]
+}
